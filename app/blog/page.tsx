@@ -3,7 +3,7 @@ export default function Blog() {
     <div className="container mx-auto md:px-4 py-8 max-w-3xl">
       <div id="posts-container">
         <article className="overflow-hidden mb-8 fade-in">
-          <div className="p-6 md:p-8">
+          <div className="p-4 md:p-8">
             <div className="flex items-center mb-4">
               <span className="bg-textcolor text-bgcolor text-sm px-3 py-1 rounded-full">
                 Dec 20, 2025
