@@ -119,9 +119,9 @@ export default function Blog() {
 
               <p className="mb-4 text-base md:text-lg leading-7.5">
                 In SDA churches, every Saturday there's a one-hour session where
-                Bible teachers meet to discuss the Bible through "TheBible Study
-                Guide," and a 45-minute session where members discuss the Bible
-                through the "The Bible Study Guide." I decided to bring up the
+                Bible teachers meet to discuss the Bible through "The Bible
+                Study Guide," and a 45-minute session where members discuss the
+                Bible through "The Bible Study Guide." I decided to bring up the
                 questions that troubled me while reading on my own in both
                 sessions. I asked them openly, but more often than not, I
                 received no satisfying answers.
