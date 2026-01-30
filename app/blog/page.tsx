@@ -17,7 +17,7 @@ export default function Blog() {
               A Journey of Deconstruction: From Religious Dogma to Independent
               Thought
             </h2>
-            <div className="relative w-full h-64 sm:h-96 mb-6 rounded-xl overflow-hidden">
+            {/* <div className="relative w-full h-64 sm:h-96 mb-6 rounded-xl overflow-hidden">
               <Image
                 src="/images/deconstruction.jpg"
                 alt="Journey from religious dogma to independent thought"
@@ -25,7 +25,13 @@ export default function Blog() {
                 className="object-cover"
                 priority
               />
-            </div>
+            </div> */}
+
+            <img
+              src="/images/deconstruction.jpg"
+              alt="Journey from religious dogma to independent thought"
+              className="w-full h-62 sm:h-92 rounded-xl mb-6 object-cover"
+            />
 
             <div className="post-content  text-textcolor  serif">
               <p className="mb-4 text-base md:text-lg leading-7.5">
@@ -113,10 +119,10 @@ export default function Blog() {
 
               <p className="mb-4 text-base md:text-lg leading-7.5">
                 In SDA churches, every Saturday there's a one-hour session where
-                Bible teachers meet to discuss the Bible through "The Bible
-                Study Guide," and a 45-minute session where members discuss the
-                Bible through the "The Bible Study Guide." I decided to bring up
-                the questions that troubled me while reading on my own in both
+                Bible teachers meet to discuss the Bible through "TheBible Study
+                Guide," and a 45-minute session where members discuss the Bible
+                through the "The Bible Study Guide." I decided to bring up the
+                questions that troubled me while reading on my own in both
                 sessions. I asked them openly, but more often than not, I
                 received no satisfying answers.
               </p>
