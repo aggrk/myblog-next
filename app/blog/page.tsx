@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Blog() {
   return (
     <div className="container mx-auto md:px-4 py-8 max-w-3xl">
@@ -15,11 +17,15 @@ export default function Blog() {
               A Journey of Deconstruction: From Religious Dogma to Independent
               Thought
             </h2>
-            <img
-              src="/images/deconstruction.jpg"
-              alt="Journey from religious dogma to independent thought"
-              className="w-full h-62 sm:h-92 rounded-xl mb-6 object-cover"
-            />
+            <div className="relative w-full h-64 sm:h-96 mb-6 rounded-xl overflow-hidden">
+              <Image
+                src="/images/deconstruction.jpg"
+                alt="Journey from religious dogma to independent thought"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
 
             <div className="post-content  text-textcolor  serif">
               <p className="mb-4 text-base md:text-lg leading-7.5">
@@ -106,12 +112,13 @@ export default function Blog() {
               </p>
 
               <p className="mb-4 text-base md:text-lg leading-7.5">
-                In SDA churches, every Saturday there's a 45-minute session
-                called the "Bible Study" where members discuss the bible through
-                the book called "The bible study guide". I decided to bring up
-                the questions that troubled me while reading on my own. I asked
-                them openly, but more often than not, I received no satisfying
-                answers.
+                In SDA churches, every Saturday there's a one-hour session where
+                Bible teachers meet to discuss the Bible through "The Bible
+                Study Guide," and a 45-minute session where members discuss the
+                Bible through the "The Bible Study Guide." I decided to bring up
+                the questions that troubled me while reading on my own in both
+                sessions. I asked them openly, but more often than not, I
+                received no satisfying answers.
               </p>
               <p className="mb-4 text-base md:text-lg leading-7.5">
                 My motive was clear: I wanted to truly understand what I
