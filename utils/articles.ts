@@ -20,7 +20,7 @@ export const articles: Article[] = [
   },
   {
     id: 2,
-    title: "Why I do not believe in the God of the bible.",
+    title: "Why I No Longer Believe in the God of the Bible.",
     intro:
       "Discussing the so called “God” is such a sensitive topic because it involves almost every aspect of any Christian's life, speaking negatively about him always triggers anger to most believers. Those who speak bad about “God” are often regarded as blasphemers, and it is said that sooner or later they will face the fury of the “God” whom they blaspheme. Some would take some extra step and pray for mercy for anyone who speak badly about “God” for they believe that they do that because they are out of their mind and “They don’t know what they are doing”. ",
     image_url: "/images/atheism.jpg",
