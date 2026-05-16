@@ -6,13 +6,15 @@ export default function SecondArticle() {
       <div id="posts-container">
         <article className="overflow-hidden mb-8 fade-in">
           <div className="p-4 md:p-8">
-            <div className="flex items-center mb-4">
-              <span className="bg-textcolor text-bgcolor text-sm px-3 py-1 rounded-full">
+            <div className="flex items-center mb-4 gap-4">
+              <span className="text-[0.65rem] uppercase tracking-widest text-textcolor/30">
                 Feb 06, 2026
               </span>
-              <span className="text-textcolor text-sm ml-3">• 6:00 PM</span>
+              <span className="text-[0.65rem] uppercase tracking-widest text-textcolor/30">
+                6:00 PM
+              </span>
             </div>
-            <h2 className="text-3xl font-bold text-textcolor mb-6 serif">
+            <h2 className="serif text-3xl sm:text-4xl font-bold text-textsecondary leading-[1.15] mb-8">
               Why I No Longer Believe in the God of the Bible
             </h2>
             <div className="relative w-full h-64 sm:h-96 mb-6 rounded-xl overflow-hidden">
@@ -24,8 +26,8 @@ export default function SecondArticle() {
                 priority
               />
             </div>
-            <div className="post-content  text-textcolor  serif">
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+            <div className="post-content serif text-textcolor/80 space-y-6">
+              <p>
                 Discussing the so-called "God" is such a sensitive topic because
                 it involves almost every aspect of any Christian's life.
                 Speaking negatively about him always triggers anger in most
@@ -36,7 +38,7 @@ export default function SecondArticle() {
                 about "God," believing that they do so because they are out of
                 their minds and "don't know what they are doing."
               </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 When I was a believer in the "God" of the Bible, I used to feel
                 sorry for those who believed there was no "God." I would
                 earnestly pray to "God" that he would forgive them and reveal
@@ -47,7 +49,7 @@ export default function SecondArticle() {
                 needing a savior to break them free from the chains of the
                 devil.
               </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 All of these beliefs—that "those who speak negatively about God
                 will face the wrath of God," that "they are blasphemers," and
                 that we should pray "that God may have mercy on them"—all
@@ -61,7 +63,7 @@ export default function SecondArticle() {
                 judgment.
               </p>
 
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 My reasons for not believing in the "God" of the Bible stem from
                 my diligent devotion and study of the Bible, from logic and
                 reasoning, and from my personal spiritual experience. I was a
@@ -78,7 +80,7 @@ export default function SecondArticle() {
                 beliefs.
               </p>
 
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 There were some questions that I used to ignore when I was a
                 believer. Questions such as: "If God knows the end from the
                 beginning, why did he create Satan when he knew he would sin?"
@@ -101,7 +103,7 @@ export default function SecondArticle() {
                 eventually create a world where sin is impossible?
               </p>
 
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 It does not make any sense for someone for whom "nothing is too
                 hard" to create a creature who will end up suffering just
                 because of "sin." An "all-powerful" being could not prevent sin
@@ -120,7 +122,7 @@ export default function SecondArticle() {
                 beginning"?
               </p>
 
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 It is written that "God will destroy sin," that he will make an
                 utter end to sin, and then there will be no more sin, and the
                 saints will live forever in a world with no sin. That means
@@ -145,7 +147,7 @@ export default function SecondArticle() {
                 still have free will, and the circle of events repeats?
               </p>
 
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 There are also some events in the Bible that make many doubt the
                 love of "God" for the creatures he created. For example, in 2
                 Samuel 12:11-14, "God" punishes David for orchestrating Uriah's
@@ -167,7 +169,7 @@ export default function SecondArticle() {
                 while in other places he commits actions that are not of love
                 and kindness.
               </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 Another reason I do not believe in this "God" is that most of
                 the things that are said about him and that people claim he said
                 cannot be experienced, and according to my experience, they do
@@ -196,14 +198,14 @@ export default function SecondArticle() {
                 natural events through a religious lens rather than encountering
                 an actual supernatural being.
               </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 I came to realize that we do not need an external power of the
                 "Holy Spirit" or "God" to have morals, to love, or to have
                 kindness. It's all within our abilities; it's our decisions. So,
                 I stopped praying to "God" for the Holy Spirit. In fact, I
                 stopped praying for anything because that "God" doesn't exist.
               </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 I know many say that there is a "God" because their lives are
                 successful, that when they were at their lowest, they prayed to
                 "God," and he opened the "way," and things were fine. I think
@@ -214,7 +216,7 @@ export default function SecondArticle() {
                 lives. He has nothing to do with our success, our failures, our
                 highs and lows, and he does not exist.
               </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 I think many say that "God is good" because they got their dream
                 job, they overcame some challenging days, they were sick and got
                 healed, and so on. Their "God is good" moments are all about
@@ -228,7 +230,7 @@ export default function SecondArticle() {
                 good to some? I think selfishness is what influences the
                 realization that "God is good."
               </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 In the end, my journey from devoted believer to skeptic was not
                 born of rebellion or anger, but of honest inquiry and the
                 courage to follow reason where it led. The contradictions I

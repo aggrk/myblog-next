@@ -1,11 +1,15 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap");
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  background-color: #1a1a1a;
+  color: #f8f8f8;
 }
 
 .serif {
-  font-family: "Merriweather", serif;
+  font-family: "Playfair Display", serif;
 }
 
 .post-content {
@@ -28,9 +32,41 @@ body {
   }
 }
 
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 0.6s ease-out both;
+}
+
+.d1 {
+  animation-delay: 0.05s;
+}
+.d2 {
+  animation-delay: 0.15s;
+}
+.d3 {
+  animation-delay: 0.25s;
+}
+.d4 {
+  animation-delay: 0.35s;
+}
+.d5 {
+  animation-delay: 0.45s;
+}
+
 @theme {
   --color-alt: #2a2a2a;
   --color-bgcolor: #1a1a1a;
   --color-textcolor: #f8f8f8;
   --color-textsecondary: #e5d4bd;
+  --color-gold: #c9a96e;
 }

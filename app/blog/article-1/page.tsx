@@ -6,14 +6,16 @@ export default function FirstArticle() {
       <div id="posts-container">
         <article className="overflow-hidden mb-8 fade-in">
           <div className="p-4 md:p-8">
-            <div className="flex items-center mb-4">
-              <span className="bg-textcolor text-bgcolor text-sm px-3 py-1 rounded-full">
+            <div className="flex items-center mb-4 gap-4">
+              <span className="text-[0.65rem] uppercase tracking-widest text-textcolor/30">
                 Dec 20, 2025
               </span>
-              <span className="text-textcolor text-sm ml-3">• 5:30 PM</span>
+              <span className="text-[0.65rem] uppercase tracking-widest text-textcolor/30">
+                5:30 PM
+              </span>
             </div>
 
-            <h2 className="text-3xl font-bold text-textcolor mb-6 serif">
+            <h2 className="serif text-3xl sm:text-4xl font-bold text-textsecondary leading-[1.15] mb-8">
               A Journey of Deconstruction: From Religious Dogma to Independent
               Thought
             </h2>
@@ -33,7 +35,7 @@ export default function FirstArticle() {
               className="w-full h-62 sm:h-92 rounded-xl mb-6 object-cover"
             /> */}
             <div className="post-content  text-textcolor  serif">
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 The journey from religious certainty to skepticism is often
                 complex and deeply personal. It is shaped by one's upbringing,
                 the boundaries imposed by doctrine, and, eventually, the courage
@@ -44,7 +46,7 @@ export default function FirstArticle() {
                 encounter logical inconsistencies or unresolved theological
                 tensions, faith—once unquestioned—can slowly give way to doubt.
               </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 For many, this transition is not driven by rebellion or a desire
                 to reject belief, but by a sincere attempt to understand it. The
                 crisis emerges not from a lack of devotion, but from an excess
@@ -53,7 +55,7 @@ export default function FirstArticle() {
                 tension between belief and reason that personal deconstruction
                 often begins.
               </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 I was born into a religious family—both my parents are
                 Seventh-day Adventists (SDA). I have to admit, they raised me
                 the best way they knew how. From an early age, I was taught the
@@ -64,7 +66,7 @@ export default function FirstArticle() {
                 Sabbath.
               </p>
 
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 As a child, I never doubted any of it. I truly believed the SDA
                 church was God's one true church and that its teachings were the
                 only right way to live—just as everyone around me had impressed
@@ -74,14 +76,14 @@ export default function FirstArticle() {
                 what had been taught to me.
               </p>
 
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 Never once in my childhood or teenage years was I encouraged to
                 think for myself or to question what I was told. No one even
                 hinted that I should. Looking back, I believe that was a fatal
                 mistake.
               </p>
 
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 This unquestioning faith remained solid through my childhood and
                 early teens. However, things began to shift during my high
                 school years—not through external pressure or rebellion, but
@@ -98,14 +100,14 @@ export default function FirstArticle() {
                 knocked.
               </p>
 
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 Because of my efforts to deepen my connection with "God," along
                 with my active participation in discussions and church
                 activities, I was appointed to various leadership positions. I
                 can simply say I was a valuable member of the church.
               </p>
 
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 It was during this period that I began reading the Bible
                 microscopically—word by word. For the first time, I started to
                 reason independently. Questions began piling up in my
@@ -116,7 +118,7 @@ export default function FirstArticle() {
                 community discussion. So I prayed earnestly for understanding.
               </p>
 
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 In SDA churches, every Saturday there's a one-hour session where
                 Bible teachers meet to discuss the Bible through "The Bible
                 Study Guide," and a 45-minute session where members discuss the
@@ -125,7 +127,7 @@ export default function FirstArticle() {
                 sessions. I asked them openly, but more often than not, I
                 received no satisfying answers.
               </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 My motive was clear: I wanted to truly understand what I
                 believed and what "God" had said through the Bible. Yet the
                 responses I got were rarely helpful. Some would say, "What is
@@ -136,7 +138,7 @@ export default function FirstArticle() {
                 understanding. But what is the point of believing if you don't
                 even understand what you believe?
               </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 Some tried to answer based on their personal opinions, but most
                 of those explanations didn't make sense. During my time as an
                 SDA member, I noticed that many Adventists hold their beliefs
@@ -145,7 +147,7 @@ export default function FirstArticle() {
                 taught or the ones they heard from pastors, Bible teachers,
                 elders, evangelists, or other respected church leaders.
               </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 There is also a smaller group of earnest readers who dig deeply
                 and search the Scriptures diligently. However, I came to believe
                 that their search is built on the foundation of established SDA
@@ -156,7 +158,7 @@ export default function FirstArticle() {
                 beliefs. In my view, most in this group remain "inside the
                 box"—their minds are not truly free.
               </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 After months of bringing these questions to Bible study sessions
                 and receiving the same unsatisfying responses—"what is hidden
                 belongs to God" or "we'll understand in heaven"—I realized I
@@ -173,7 +175,7 @@ export default function FirstArticle() {
                 honest opinion, they were among the worst Bible teachers I have
                 ever encountered.
               </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 When even the structured classes proved disappointing—offering
                 the same recycled explanations I'd heard before—I reached a
                 turning point. If the church's most knowledgeable teachers
@@ -193,7 +195,7 @@ export default function FirstArticle() {
                 frequently contradicted what was written and what God claimed to
                 be or to do.
               </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 Most Adventists argue that the Bible does not contradict itself.
                 However, this belief rests on a pre-established rule imposed
                 before reading the Bible: "The Bible does not contradict itself,
@@ -205,7 +207,7 @@ export default function FirstArticle() {
                 or appears contradictory, the reader is conditioned to assume
                 they are the problem.
               </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>
                 The more I read without doctrinal filters, the more apparent the
                 contradictions became. It was during this period of genuine,
                 unbiased inquiry that I finally understood what Isaac Asimov
@@ -221,10 +223,8 @@ export default function FirstArticle() {
                 reading of the Bible reveals that the God portrayed within it
                 does not exist.
               </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
-                This was the beginning of my deconstruction.
-              </p>
-              <p className="mb-4 text-base md:text-lg leading-7.5">
+              <p>This was the beginning of my deconstruction.</p>
+              <p>
                 Holding these views in society is difficult, especially since
                 the majority believe in the God of the Bible and are highly
                 sensitive when discussing such matters. Some have said I have
